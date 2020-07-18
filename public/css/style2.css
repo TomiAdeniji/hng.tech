@@ -1,11 +1,14 @@
 *{
     margin: 0;
-    padding: 0;   
-   }
+    padding: 0;
+    box-sizing: border-box;
+}
+
    /* font-family: 'Inter', sans-serif;
 font-family: 'Roboto', sans-serif; */
    body{
-    padding: 0 3rem;
+    
+    font-family: 'Lato', sans-serif;
    }
    /* nav bar */
    #nav-bar{
@@ -16,8 +19,7 @@ font-family: 'Roboto', sans-serif; */
    }
    .navbar{
        background:#fff;
-       /* padding: 0 !important; */
-       /* padding: 1rem 3rem; */
+       padding: 0 3rem;
        }
    .navbar-brand img{
        height: 40px;
@@ -34,8 +36,7 @@ font-family: 'Roboto', sans-serif; */
        text-align: left;
    }
    .navbar-nav li a:hover{
-       color:#f2994a;
-       text-decoration: underline;
+       border-bottom: 3px #00aeff solid;
    }
    .fa-bars{
        color: #084482;
@@ -45,72 +46,112 @@ font-family: 'Roboto', sans-serif; */
        outline: none;
    }
 /* welcome section */
-#welcome{
-    padding: 5rem 0;
-}
-   .welcome-title{font-family: 'Nunito', sans-serif; font-size:50px; line-height: 50px; color: #084482; } 
+#welcome{margin: 4rem 2rem;}
+   .welcome-title{font-size:50px; line-height: 50px; color: #084482; } 
    .welcome-subtitle{padding-top:.5rem; color: #2f2e41; font-size: 24px; line-height: 30px;}
-   .btn-intern{ font-family: 'Nunito', sans-serif;
-    font-size: 24px; line-height: 30px; color: #fff; background: #00aeff; border-radius: 10px;}
+   .btn-intern{font-size: 24px; line-height: 30px; color: #fff; background: #00aeff; border-radius: 10px;}
 
-   /* how it works */
-   #how-it-works{ background: #02bde7; font-family: 'Nunito', sans-serif; padding-top:2.7rem; color: #fff;}
-   .how-it-works-main{font-size: 3rem; font-weight: bold; line-height: 82px;}
-   .how-it-works-sub{ font-size: 1.5rem; line-height: 49px; padding: 0 2.3rem;}
-   .how-it-works-content{padding-top: 3rem;}
-  
-   .how-it-works-title{font-size: 2.5rem; line-height: 75px;}
-   .how-it-works-subcontent{font-size: 1.5rem; line-height: 49px;}
-   .btn-getstarted{font-size:2rem; line-height: 55px; background: #fff; color: #02bde7;}
+/* wefind section */
+#wefind{margin:4rem 2.3rem;}
+.wefind-title{font-size:50px; line-height: 50px; color: #084482; } 
+   .wefind-subtitle{padding-top:.5rem; color: #2f2e41; font-size: 24px; line-height: 30px;}
 
-   /* template and demos */
-   #template-demos{color: #333; font-family: 'Nunito', sans-serif; padding-top: 3.5rem;}
-   .template-sub{padding-bottom: 3rem;}
-   .templates{background: #f8f9fc;}
-   .applanding-img{max-width: 100%;}
-   .template-name{font-size: 1.5rem;}
+   /* buildtalent section */
+   #buildtalent{margin: 9rem 2.3rem;}
+   .buildtalent-subtitle{font-size: 16px; line-height: 32px; margin: 2rem 0; color: #2f2e41;}
+   .buildtalenting-title{font-weight: 800; font-size: 24px; line-height: 32px; color: #084482;}
+   /* how the internship works section  */
+   #howinternship{margin-bottom: 9rem; padding: 0 2.3rem;}
+   .howinternship-sub{padding-left:3rem;}
+   .howinternship-info{margin-bottom: 2rem;}
+   .howintership-sub{font-size: 16px; line-height: 25px; color: #2f2e41;}
 
- /* our customers section */
- .customer-review{padding: 0 2.3rem; color: #7b7b7b;}
- .customer-review-card{margin-bottom: 1.5rem;}
- .customer-company{font-size: 2rem;}
- .customer-comment{font-size: 1.2rem;}
- .customer-name{font-size: 1.2rem; color: #02bde7;}
+   .howinternship-content{padding: 2rem 1rem;}
 
- /* pricing section */
- #pricing{ background: #f8f9fc; font-family: 'Nunito', sans-serif;}
- .pricing-title{font-size: 3rem; font-weight: bold; color:#02bde7; line-height: 82px;}
- .price-plan{font-size: 3rem; line-height: 65px;}
- .pricing-sub{font-size: 1.5rem;}
- .btns{
-     padding-bottom:2rem;
- }
- .btn-year{padding-right: 2rem !important;}
- .pricing{padding: 0 2.3rem; color: #333;}
- .price-card{margin-bottom: 1.5rem;}
- .price-type{font-size: 2rem;}
- .price-offers{font-size: 1.2rem;}
- .btn-getstarted2{font-size:2rem; line-height: 55px; background: #02bde7; color: #f8f9fc;}
+   /* partner section */
+   #partners{background: rgba(0, 174, 255, 0.3); padding: 3rem 2.3rem;}
+   .partners-logo{padding: 1rem;}
+   .partners-logo img{padding:2rem 0;}
+   /* what you get section */
+   #whatyouget{margin-bottom: 9rem;}
+   .whatyouget-heading{font-size: 36px; line-height: 50px; color: #084482;}
+   .whatyouget-info{font-size: 16px; line-height: 30px; }
+   .bottom{border-bottom: 3px #00aeff solid; width: 35%;}
 
+   /* support */
+   #support{padding: 3rem 2.3rem;}
+   .supportug-card{padding: 3rem 1rem;}
+   .support-subtitle{font-size: 16px; line-height: 30px; margin: 2rem 0; color: #2f2e41;}
+   .supportug-title{font-size: 24px; line-height: 30px;color: #2f2e41;}
+   .support-img{margin: 2rem 0;}
+/* wanttodonate */
+#wanttodonate{padding: 3rem 2.3rem;}
+.wanttodonate-sub{padding-bottom: 2rem;}
+.wanttodonate-sec{padding-top: 8rem;}
+
+/* support ug */
+.supportug-title{font-size: 24px; line-height: 30px; color: #2f2e41;}
+.btn-learn{width: 100%; background: #00aeff; font-size: 18px; line-height: 30px; color: #fff; padding: .5rem 0rem;}
+   
  /* footer section */
- #footer{background: #000000 !important; color:#fff; font-family: 'Nunito', sans-serif; padding-top: .3rem;}
+ #footer{background: #084482 !important; color:#fff; padding: .5rem 0;}
  .footer-content{
     padding: 0 2.3rem;
     margin-top: 2rem;
 }
-
-.footer-link{ font-size: 14px;
+.contact-info{font-size: 18px; line-height: 30px;}
+.footer-icon{padding-bottom:1rem;}
+.footer-link{ font-size: 18px; line-height: 55px;
    color:#fff; text-decoration: none;
 text-decoration-style: none;}
 .footer-link:hover{
-color: #96772c;
+color: #fff;
+font-size: 26px;
 }    
 hr
+.subscribe-subtitle{font-size: 18px; line-height: 20px;}
+.footer-border{border-left: 1px #c4c4c4 solid;}
 .copyright-footer {
    box-shadow: none;
    border: none;
-   background: #000000 !important;
-   color: #ffffff !important;
-   
+   color: #ffffff !important;  
 }
+.footer-thing{ margin-bottom: 0 !important;}
 
+.email-field{background: #084482; width: 100%; padding:1.6rem 1rem;}
+.email-field::placeholder{color: rgba(255, 255, 255, 0.6);
+}
+.btn-subcribe{background: #00aeff; border-radius: 10px; font-size: 16px; line-height: 30px;/* margin-left: 17.5rem; margin-top: -4rem; position: absolute;*/}
+.sm-icons img{padding: 1rem .5rem;}
+
+/* media query */
+@media (max-width: 576px){
+    /* welcome section */
+    .welcome-title{font-size: 36px; line-height: 50px;}
+    .welcome-subtitle{font-size: 16px; line-height: 30px;}
+    .btn-intern{font-size: 16px; line-height: 30px;}
+    /* wefind section */
+    .wefind-title{font-size: 36px;}
+    .wefind-subtitle{font-size: 18px;}
+/* buildtalent */
+    .buildtalent-subtitle{font-size: 14px;}
+    .buildtalenting-title{font-size: 18px; line-height: 22px;}
+
+    /* how the internship works */
+    .howintership-sub{font-size: 14px; line-height: 30px;}
+    .howinternship-content{font-size: 14px; line-height: 20px;}
+    .howinternship-last{padding-left: 3rem;}
+    
+
+    /* what you get */
+    .whatyouget-heading{font-size: 24px;}
+    .whatyouget-info{font-size: 14px; line-height: 22px;}
+/* support */
+
+.support-subtitle{font-size: 14px;}
+.supportug-title{font-size: 18px; }
+    /* footer */
+    .footer-border{border-left:none; border-top: 1px #c4c4c4 solid;}
+
+
+}

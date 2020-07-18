@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HNG Internship</title>
     <link rel="stylesheet" href="./public/css/bootstrap-css/bootstrap.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./public/css/style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -24,17 +27,17 @@
             <div class="collapse navbar-collapse" id="navbarToggler">
                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="./about.html">About</a>
                     </li>
 
                     <li class="nav-item">
                         <a class="nav-link" href="#">Interns</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link" href="#">Donate</a>
+                        <a class="nav-link" href="./donate.html">Donate</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Learn Coding</a>
@@ -47,8 +50,9 @@
     </section>
     <!-- welcome section -->
     <section id="welcome">
-        <div class="row">
-            <div class="col-md-4">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-md-4" data-aos="fade-right">
                 <h1 class="welcome-title">Perfection is always 
                     under construction.
                 </h1>
@@ -57,55 +61,70 @@
                     <button class="btn btn-primary btn-intern">Become an Intern</button>
             </div>
 
-            <div class="col-md-8">
+            <div class="col-md-8" data-aos="fade-left">
 <img class="img-fluid" src="./public/assets/img/Team-cuate 1.png" alt="">
             </div>
 
         </div>
+        </div>
+        
     </section>
-
-    
 
     </section>
     <section id="footer">
         <div class="container-fluid">
           <div class="row footer-content">
             
-            <div class="col-md-4 ">
-              <h3>About Avengers</h3>
-              <p>Avengers provides you with everything you need to generate awareness, drive traffic, connect 
-                and get conversions to your site.</p>
+            <div class="col-md-4" data-aos="fade-left">
+              <img class="img-fluid footer-icon" src="./public/assets/icons/hng_logo-min 2 1.png" alt="">
+              <p class="contact-info">hello@hng.tech <br>
+                +234 (0) 812 345 6789</p>
+                <p>3 Birrel Avenue, Sabo.
+                    Yaba, Lagos State,
+                    Nigeria</p>
             </div>
-            <div class="col-md-4 footerlist">
-              <h3>Quick Links</h3>
+            <div class="col-md-4 footerlist" data-aos="fade-right">
+              <h3>Company</h3>
               <ul class="list-unstyled">
-                <li> <a href="#" class="footer-link">Home</a></li>
-                <li> <a href="#" class="footer-link">FAQ</a></li>
-                <li> <a href="#" class="footer-link">Policy</a></li>
-                <li> <a href="#" class="footer-link">Services</a></li>
+                <li> <a href="#" class="footer-link">About</a></li>
+                <li> <a href="#" class="footer-link">Interns</a></li>
+                <li> <a href="#" class="footer-link">Learn Coding</a></li>
+                <li> <a href="#" class="footer-link">Contact</a></li>
     
               </ul>
             </div>
-            <div class="col-md-4 footer-contact">
-                <h3>Contact</h3>
-                <img src="./img/icon2.svg" alt="">
-                  <p>20, Bello street, Bode Thomas, Surulere, Lagos</p>
-                  <p>contact@serene.com</p>
-                  <p>08012345678</p>
-                </div>
+            <div class="col-md-4 footer-contact" data-aos="fade-left">
+                <h3>Subscribe</h3>
+                <p class="subscribe-subtitle">Subscribe to our newsletter to get the latest info, updates and gist.</p>
+                <form>
+                    <div class="form-group">
+                      <label for="InputEmail1">Email address</label>
+                      <input type="email" class="form-control email-field" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                      
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-subcribe">Submit</button>
+                  </form>
+                
           </div>
-    
+    <div class="sm-icons img-fluid">
+    <img src="./public/assets/icons/facebook.png" alt="">
+    <img src="./public/assets/icons/twitter.png" alt="">
+    <img src="./public/assets/icons/google+.png" alt="">
+    <img src="./public/assets/icons/insta.png" alt="">
+    </div>
         </div>
         <footer id="main-footer" class="copyright-footer text-center">
-            <p> &copy; 2020 Avengers. All rights reserved
+            <p class="footer-thing"> &copy; 2020 Designed by @NerdFather Coded by @TomiAdeniji
             </p>
           </footer>
       </section>
       
       
-        <script src="./js/bootstrap-js/jquery.js"></script>
-    <script src="./js/bootstrap-js/popper.js"></script>
-    <script src="./js/bootstrap-js/bootstrap.js"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="./public/js/bootstrap.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./public/js/app.js"></script>
     <script src="https://use.fontawesome.com/6f3bee1fc0.js"></script>
 
 </body>
